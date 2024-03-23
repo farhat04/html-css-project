@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Canteen Management System</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Canteen Management System</h1>
+        <nav>
+            <ul>
+                <li>
+                    <a href="#breakfast">Breakfast Menu</a>
+                </li>
+                <li>
+                    <a href="#lunch">Lunch Menu</a>
+                </li>
+                <li>
+                    <a href="#snacks">Snacks Menu</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+    <div class="flexbox">
+        <section id="breakfast" class="menu-category">
+            <h2>South Indian Breakfast</h2>
+            <div class="menu-item">
+                <img src="idly.jpg" alt="Idly"
+                width="200"
+                height="200">
+            <div>
+            <h3>Idly</h3>
+            <p>Price: ₹30.00</p>
+            </div>
+            <button onclick="addToCart('Idly',30.00)"><a href="index1.html" class="cart-button" onclick="addToCart()">Add to Cart</a></button>
+            </div>
+            
+            <div class="menu-item">
+                <img src="bonda.jpg" alt="Bonda" 
+                width="200"
+                height="200">
+            <div>
+            <h3>Bonda</h3>
+            <p>Price: ₹35.00</p>
+            </div>
+            <button onclick="addToCart('Bonda',35.00)"><a href="index1.html" class="cart-button" onclick="addToCart()">Add to Cart</a></button>
+            </div>
+            
+            <div class="menu-item">
+                <img src="dosa.jpg" alt="Dosa"
+                width="200"
+                height="200">
+            <div>
+            <h3>Dosa</h3>
+            <p>Price: ₹30.00</p>
+            </div>
+            <button onclick="addToCart('Dosa',30.00)"><a href="index1.html" class="cart-button" onclick="addToCart()">Add to Cart</a></button>
+            </div>
+            <br>
+            <div class="menu-item">
+                <img src="masaladosa.jpg" alt="Masala Dosa"
+                width="200"
+                height="200">
+            <div>
+            <h3>Masala Dosa</h3>
+            <p>Price: ₹35.00</p>
+            </div>
+            <button onclick="addToCart('Masala Dosa',35.00)"><a href="index1.html" class="cart-button" onclick="addToCart()">Add to Cart</a></button>
+            </div>
+            
+            <div class="menu-item">
+                <img src="vada.jpg" alt="Vada"
+                width="200"
+                height="200">
+            <div>
+            <h3>Vada</h3>
+            <p>Price: ₹35.00</p>
+            </div>
+            <button onclick="addToCart('Vada',35.00)"><a href="index1.html" class="cart-button" onclick="addToCart()">Add to Cart</a></button>
+            </div>
+            
+            <div class="menu-item">
+                <img src="poori.jpg" alt="Dosa"
+                width="200"
+                height="200">
+            <div>
+            <h3>Poori</h3>
+            <p>Price: ₹40.00</p>
+            </div>
+            <button onclick="addToCart('Poori',40.00)"><a href="index1.html" class="cart-button" onclick="addToCart()">Add to Cart</a></button>
+            </div>
+            
+        </section>
+        <section id="lunch" class="menu-category">
+            <h2>Lunch Menu</h2>
+            <div class="menu-item">
+                <img src="veg meals.jpg" alt="veg meals"
+                width="200"
+                height="200">
+                <div>
+                    <h3>Veg Meals</h3>
+                    <p>Price: ₹60.00</p>
+                </div>
+                <button onclick="addToCart('veg meals', 60.00)"><a href="index1.html" class="cart-button" onclick="addToCart()">Add to Cart</a></button>
+            </div>
+            
+            <div class="menu-item">
+                <img src="nonveg meals.jpg" alt="non-veg meals"
+                width="200"
+                height="200">
+                <div>
+                    <h3>Non-Veg Meals</h3>
+                    <p>Price: ₹80.00</p>
+                </div>
+                <button onclick="addToCart('nonveg meals', 80.00)"><a href="index1.html" class="cart-button" onclick="addToCart()">Add to Cart</a></button>
+            </div>
+            
+            <div class="menu-item">
+                <img src="noodles.jpg" alt="veg-noodles"
+                width="200"
+                height="200">
+                <div>
+                    <h3>Veg-Noodles</h3>
+                    <p>Price: ₹60.00</p>
+                </div>
+                <button onclick="addToCart('noodles', 60.00)"><a href="index1.html" class="cart-button" onclick="addToCart()">Add to Cart</a></button>
+            </div>
+            
+            <div class="menu-item">
+                <img src="nonveg noodels.jpg" alt="Chicken noodles"
+                width="200"
+                height="200">
+                <div>
+                    <h3>Chicken noodles</h3>
+                    <p>Price: ₹80.00</p>
+                </div>
+                <button onclick="addToCart('nonveg noodles', 80.00)"><a href="index1.html" class="cart-button" onclick="addToCart()">Add to Cart</a></button>
+            </div>
+            
+            <div class="menu-item">
+                <img src="veg fried rice.jpg" alt="veg fried rice"
+                width="200"
+                height="200">
+                <div>
+                    <h3>Veg Fried Rice</h3>
+                    <p>Price: ₹70.00</p>
+                </div>
+                <button onclick="addToCart('veg fried rice', 60.00)"><a href="index1.html" class="cart-button" onclick="addToCart()">Add to Cart</a></button>
+            </div>
+            
+            <div class="menu-item">
+                <img src="Chicken Fried Rice.jpg" alt="chicken fried rice"
+                width="200"
+                height="200">
+                <div>
+                    <h3>Chicken Fried Rice</h3>
+                    <p>Price: ₹100.00</p>
+                </div>
+                <button onclick="addToCart('Chicken Fried Rice', 60.00)"><a href="index1.html" class="cart-button" onclick="addToCart()">Add to Cart</a></button>
+            </div>
+            
+        </section>
+        <section id="snacks" class="menu-category">
+            <h2>Snacks Menu</h2>
+            <div class="menu-item">
+                <img src="veg manchurian.jpg" alt="Veg Manchurian"
+                width="200"
+                height="200">
+                <div>
+                    <h3>Veg Manchurian</h3>
+                    <p>Price: ₹60.00</p>
+                </div>
+                <button onclick="addToCart('veg manchurian',60.00)"><a href="index1.html" class="cart-button" onclick="addToCart()">Add to Cart</a></button>
+            </div>
+            
+            <div class="menu-item">
+                <img src="chicken manchuria.jpg" alt="Chicken Manchurian"
+                width="200"
+                height="200">
+                <div>
+                    <h3>Chicken Manchurian</h3>
+                    <p>Price: ₹90.00</p>
+                </div>
+                <button onclick="addToCart('chicken manchurian',90.00)"><a href="index1.html" class="cart-button" onclick="addToCart()">Add to Cart</a></button>
+            </div>
+            
+            <div class="menu-item">
+                <img src="paneer frankie.jpg" alt="Paneer Frankie"
+                width="200"
+                height="200">
+                <div>
+                    <h3>Paneer Frankie</h3>
+                    <p>Price: ₹70.00</p>
+                </div>
+                <button onclick="addToCart('paneer frankie',70.00)"><a href="index1.html" class="cart-button" onclick="addToCart()">Add to Cart</a></button>
+            </div>
+            
+            <div class="menu-item">
+                <img src="chicken frankie.jpg" alt="Chicken Frankie"
+                width="200"
+                height="200">
+                <div>
+                    <h3>Chicken Frankie</h3>
+                    <p>Price: ₹90.00</p>
+                </div>
+                <button onclick="addToCart('chicken frankie',90.00)"><a href="index1.html" class="cart-button" onclick="addToCart()">Add to Cart</a></button>
+            </div>
+            <div class="menu-item">
+                <img src="french fries.jpg" alt="French Fries"
+                width="200"
+                height="200">
+                <div>
+                    <h3>French Fries</h3>
+                    <p>Price: ₹60.00</p>
+                </div>
+                <button onclick="addToCart('french fries',60.00)"><a href="index1.html" class="cart-button" onclick="addToCart()">Add to Cart</a></button>
+            </div>
+            
+            
+            
+            <div class="menu-item">
+                <img src="icecream.jpg" alt="Icecream"
+                width="200"
+                height="200">
+                <div>
+                    <h3>Icecream</h3>
+                    <p>Price: ₹40.00</p>
+                </div>
+                <button onclick="addToCart('icecream',40.00)"><a href="index1.html" class="cart-button" onclick="addToCart()">Add to Cart</a></button>
+            </div>
+        </section>
+    </div>
+    <footer>©2024 Canteen Management System</footer>
+</body>
+</html>
